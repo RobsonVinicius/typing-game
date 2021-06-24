@@ -52,6 +52,12 @@ function addWordToDom() {
   word.innerHTML = randomWord;
 }
 
+// Update score
+function updateScore() {
+  score++;
+  scoreEl.innerHTML = score;
+}
+
 addWordToDom();
 
 // Event listeners
@@ -60,6 +66,7 @@ text.addEventListener('input', e => {
 
   if(insertedText === randomWord) {
     addWordToDom();
+    updateScore()
     // clear
     e.target.value = '';
   }

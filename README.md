@@ -8,13 +8,12 @@
  + Events
 
 <br>
-
-Live Preview
-https://robsonvinicius.github.io/typing-game/
-
-<br>
- 
  
 ![Preview Project](preview.png)
+
+<br>
+
+## Live Preview
+https://robsonvinicius.github.io/typing-game/
 
 
